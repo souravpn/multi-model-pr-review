@@ -1,0 +1,49 @@
+{
+  "name": "multi-model-pr-review",
+  "version": "1.0.0",
+  "description": "Review pull requests using Claude, GPT-4, and Gemini simultaneously with a consolidated report",
+  "bin": {
+    "pr-review": "./bin/cli.js"
+  },
+  "main": "./bin/index.js",
+  "types": "./bin/index.d.ts",
+  "files": [
+    "bin/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start": "node bin/cli.js",
+    "dev": "ts-node src/cli/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "@google/generative-ai": "^0.24.0",
+    "@octokit/rest": "^21.1.1",
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.7",
+    "openai": "^4.86.2",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "keywords": [
+    "pr-review",
+    "claude",
+    "gpt",
+    "gemini",
+    "code-review",
+    "multi-model",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

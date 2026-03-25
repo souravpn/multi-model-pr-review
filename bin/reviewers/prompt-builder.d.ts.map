@@ -1,0 +1,1 @@
+{"version":3,"file":"prompt-builder.d.ts","sourceRoot":"","sources":["../../src/reviewers/prompt-builder.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,UAAU,CAAC;AAElC,qBAAa,aAAa;IACxB,MAAM,CAAC,kBAAkB,CAAC,MAAM,EAAE,MAAM,GAAG,MAAM;IAqBjD,MAAM,CAAC,eAAe,CACpB,MAAM,EAAE,MAAM,EACd,eAAe,GAAE,MAAa,GAC7B,MAAM;CAeV"}

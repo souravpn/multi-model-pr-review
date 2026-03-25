@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Review pull requests using Claude, GPT-4, and Gemini simultaneously with a consolidated report",
   "bin": {
-    "pr-review": "./bin/cli.js"
+    "pr-review": "./bin/cli/index.js"
   },
   "main": "./bin/index.js",
   "types": "./bin/index.d.ts",
